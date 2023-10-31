@@ -12,6 +12,7 @@ namespace Tyuiu.PostikaAO.Sprint3.TaskReview.V30.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
+            
             double[] valueArray;
             int len = (stopValue - startValue) + 1;
             valueArray = new double[len];
